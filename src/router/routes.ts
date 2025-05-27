@@ -1,16 +1,17 @@
-import type { RouteRecordRaw } from "vue-router";
-const HomeLayout = () => import("@/layouts/Home/index.vue");
+import type { RouteRecordRaw } from 'vue-router'
+
+const HomeLayout = () => import('@/layouts/Home/index.vue')
 
 // 定义路由
 const routes: Array<RouteRecordRaw> = [
   {
-    path: "/",
+    path: '/',
     component: HomeLayout,
-    redirect: "/one",
+    redirect: '/one',
     children: [
-      { path: "one", component: () => import("@/pages/one/index.vue") },
+      { path: 'one', component: () => import('@/pages/one/index.vue') },
     ],
   },
-];
+]
 
-export default routes;
+export default routes
