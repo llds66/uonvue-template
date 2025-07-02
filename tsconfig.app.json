@@ -6,11 +6,12 @@
     "baseUrl": "./",
     "paths": {
       "@/*": ["src/*"],
-      "@components/*": ["src/common/components/*"],
-      "@assets/*": ["src/common/assets/*"],
-      "@apis/*": ["src/common/apis/*"],
-      "@http/*": ["src/common/http/*"],
-      "@utils/*": ["src/common/utils/*"]
+      "@L/*": ["src/layouts/*"],
+      "@P/*": ["src/pages/*"],
+      "@C/*": ["src/components/*"],
+      "@A/*": ["src/common/assets/*"],
+      "@CP/*": ["src/common/composables/*"],
+      "@U/*": ["src/common/utils/*"]
     },
 
     /* Linting */

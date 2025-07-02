@@ -5,15 +5,19 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [vue(), UnoCSS()],
+  plugins: [
+    vue(),
+    UnoCSS(),
+  ],
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src'),
-      '@components': resolve(__dirname, 'src/common/components'),
-      '@assets': resolve(__dirname, 'src/common/assets'),
-      '@apis': resolve(__dirname, 'src/common/apis'),
-      '@http': resolve(__dirname, 'src/common/http'),
-      '@utils': resolve(__dirname, 'src/common/utils'),
+      '@L': resolve(__dirname, 'src/layouts'),
+      '@P': resolve(__dirname, 'src/pages'),
+      '@C': resolve(__dirname, 'src/components'),
+      '@A': resolve(__dirname, 'src/common/assets'),
+      '@CP': resolve(__dirname, 'src/common/composables'),
+      '@U': resolve(__dirname, 'src/common/utils'),
     },
   },
 })

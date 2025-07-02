@@ -1,5 +1,16 @@
-import { defineConfig, presetIcons, presetWind3 } from 'unocss'
+import {
+  defineConfig,
+  presetIcons,
+  presetWind4,
+  transformerDirectives,
+} from 'unocss'
 
 export default defineConfig({
-  presets: [presetWind3(), presetIcons({})],
+  presets: [
+    presetWind4(),
+    presetIcons(),
+  ],
+  transformers: [
+    transformerDirectives(),
+  ],
 })
