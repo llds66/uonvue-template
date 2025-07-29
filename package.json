@@ -20,16 +20,16 @@
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.18.0",
-    "@iconify/json": "^2.2.362",
+    "@antfu/eslint-config": "^5.0.0",
+    "@iconify/json": "^2.2.363",
     "@unocss/eslint-plugin": "^66.3.3",
-    "@vitejs/plugin-vue": "^6.0.0",
+    "@vitejs/plugin-vue": "^6.0.1",
     "@vue/tsconfig": "^0.7.0",
-    "eslint": "^9.31.0",
-    "jiti": "^2.5.0",
+    "eslint": "^9.32.0",
+    "jiti": "^2.5.1",
     "typescript": "~5.8.3",
     "unocss": "66.3.3",
-    "vite": "^7.0.5",
-    "vue-tsc": "^3.0.3"
+    "vite": "^7.0.6",
+    "vue-tsc": "^3.0.4"
   }
 }
